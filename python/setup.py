@@ -24,6 +24,7 @@ modules = [
 			'../src/soc/nxp/imx6dqrm.c',
 			'../src/soc/samsung/exynos5422.c',
 			'../src/soc/rockchip/rk356x.c',
+			'../src/soc/rockchip/rk3588.c',
 			'../src/platform/platform.c',
 			'../src/platform/hardkernel/odroidc1.c',
 			'../src/platform/hardkernel/odroidc2.c',
@@ -51,6 +52,7 @@ modules = [
 			'../src/platform/radxa/radxa_cm3_io.c',
 			'../src/platform/radxa/radxa_e23.c',
 			'../src/platform/radxa/radxa_e25.c',
+			'../src/platform/radxa/rock5b.c',
 		],
 		include_dirs=['../src/']
 	),
